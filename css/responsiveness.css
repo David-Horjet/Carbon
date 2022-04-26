@@ -1,0 +1,312 @@
+@media (max-width: 992px) {
+    nav {
+        max-width: 720px;
+        width: 93%;
+        flex-direction: column;
+    }
+
+    .container {
+        max-width: 720px;
+        width: 90%;
+        margin: auto;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+    .row {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    header {
+        border-bottom: none;
+    }
+
+    .nav2 {
+        display: none;
+    }
+
+    .nav1 {
+        display: none;
+    }
+
+    .logo-link {
+        width: 100%;
+        align-items: center;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    #section1 .half1 {
+        width: 100%;
+    }
+
+    #section1 .bonus {
+        flex-direction: row;
+        margin: auto;
+    }
+
+    #section1 h1 {
+        text-align: center;
+    }
+
+    #section1 p {
+        text-align: center;
+    }
+
+    #section1 .download-links {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #section1 .licensers {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #section1 .half2 {
+        width: 100%;
+    }
+
+    #section1 .half2 img{
+        padding: 20px 0;
+    }
+
+    #section2 .half1 {
+        width: 100%;
+    }
+
+    #section2 .half1 img {
+        width: 100%;
+        padding: 30px;
+    }
+
+    #section2 .half2 {
+        width: 100%;
+        padding: 0;
+    }
+
+    #section2 .carbon {
+        flex-direction: column-reverse;
+    }
+
+    #section2 .topic {
+        margin: auto;
+    }
+
+    #section2 h2 {
+        text-align: center;
+    }
+
+    #section2 p {
+        text-align: center;
+    }
+
+    #section2 .learn {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #section3 .half2 {
+        width: 100%;
+        padding: 0;
+    }
+
+    #section3 .half2 img {
+        width: 100%;
+        padding: 30px;
+    }
+
+    #section3 .half1 {
+        width: 100%;
+    }
+
+    #section3 .carbon {
+        flex-direction: column;
+    }
+
+    #section3 .topic {
+        margin: auto;
+    }
+
+    #section3 h2 {
+        text-align: center;
+    }
+
+    #section3 p {
+        text-align: center;
+    }
+
+    #section3 .learn {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #section8 .procedure {
+        padding: 0;
+    }
+
+    #section8 .description {
+        width: 100%;
+    }
+
+    #section8 .descrip {
+        margin: 20% 0;
+    }
+
+    #section8 .image-d {
+        display: none;
+    }
+
+    #section10 .download-links {
+        flex-direction: row;
+    }
+
+    footer .grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+
+
+/* Media Queries For Max-width 768px */
+
+@media (max-width: 768px) {
+    nav {
+        max-width: 540px;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .container {
+        max-width: 540px;
+        width: 90%;
+        margin: auto;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+    footer .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+
+
+
+/* Media Queries For Max-width 540px */
+
+@media (max-width: 540px) {
+
+    #section1 .bonus a {
+        font-size: 12px;
+    }
+
+    #section1 h1 {
+        font-size: 35px;
+    }
+
+    #section1 p {
+        font-size: 15px;
+    }
+
+    #section2 h2 {
+        font-size: 20px;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    #section2 p {
+        font-size: 15px;
+    }
+
+    #section3 h2 {
+        font-size: 20px;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    #section3 p {
+        font-size: 15px;
+    }
+
+    #section8 h1 {
+        font-size: 25px;
+        font-weight: bolder;
+        letter-spacing: normal;
+    }
+
+    #section8 .descrip h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    #section8 .descrip-info p {
+        font-size: 15px;
+    }
+
+    #section8 .no1 {
+        font-size: 16px;
+    }
+
+    #section8 .no2 {
+        font-size: 16px;
+    }
+
+    #section8 .no3 {
+        font-size: 16px;
+    }
+
+    #section9 h1 {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    #section9 .star img {
+        width: 100px;
+    }
+
+    #section9 p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    #section10 h1 {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    #section10 p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    footer .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+/* Media Queries For Max-width 325px */
+
+@media (max-width: 325px) {
+
+    footer .grid {
+        grid-template-columns: 1fr;
+    }
+}
