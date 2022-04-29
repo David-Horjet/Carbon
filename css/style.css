@@ -613,12 +613,13 @@ main {
 }
 
 #section9 .scroller {
-    overflow-x: scroll;
+    overflow-x: hidden;
     display: flex;
     scroll-snap-type: x mandatory;
 }
 
 #section9 .testimony {
+    width: 300px;
     min-width: 100%;
     scroll-snap-align: center;
     background-color: white;
@@ -628,7 +629,7 @@ main {
 
 #section9 .btn {
     position: absolute;
-    top: 50%;
+    top: 0;
     margin-top: 20px;
     height: 30px;
     width: 30px;
